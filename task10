@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Videos</title>
+</head>
+
+<body>
+  <main>
+    <h1>Web Development Video Compilation</h1>
+
+    <p>
+      Explore these videos to learn more about web development, programming,
+      and the technologies used to build modern websites.
+    </p>
+
+    <section>
+      <h2>Learn HTML</h2>
+      <p>
+        Learn the basics of HTML and how to structure a web page.
+      </p>
+      <iframe
+        src="https://www.youtube.com/embed/kUMe1FH4CHE"
+        title="HTML Tutorial for Beginners"
+        width="560"
+        height="315">
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Learn CSS</h2>
+      <p>
+        Discover how CSS is used to style and design beautiful web pages.
+      </p>
+      <iframe
+        src="https://www.youtube.com/embed/OXGznpKZ_sA"
+        title="CSS Full Course for Beginners"
+        width="560"
+        height="315">
+      </iframe>
+    </section>
+
+    <section>
+      <h2>Learn JavaScript</h2>
+      <p>
+        Get started with JavaScript and learn how to make websites interactive.
+      </p>
+      <iframe
+        src="https://www.youtube.com/embed/PkZNo7MFNFg"
+        title="JavaScript Tutorial for Beginners"
+        width="560"
+        height="315">
+      </iframe>
+    </section>
+  </main>
+</body>
+</html>
