@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+    
+
+      background-color: #f0f0f0;
+      border-radius: 20px;
+      width: 50%;
+      margin: 20px auto;
+    }
+    * {
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #233b5e;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    
+}
+    .nav{
+      text-align: right;
+        margin-top: 0px;
+      text-decoration: underline;
+      
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    h2{
+      color: #233b5e;
+    }
+    p{
+      color: #8994a4;
+      font-size: 20px;
+    }
+
+span{
+  color: #6686b7;
+  
+  font-weight: bold;
+}
+.a2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+.a1{
+  background-color: #ffffff;
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.a3{
+  background-color: #212646;
+  border-radius: 20px;
+ width: 100%;
+  height: 100px;
+  margin: 0px;
+  padding: 20px;
+  color: white;
+}
+.a4{
+  background-color: #233b5e;
+  border-radius: 20px;
+ width: 100%;
+  height: 100px;
+  margin: 0px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+
+}
+.a5{
+  display: flex;
+  justify-content: space-between;
+}
+small{
+  color: #8994a4;
+}
+em{
+  color: #b5becb;
+  font-size: 20px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+  
+  <div class="content">
+    <div class="a5">
+    <h1>Web Academy</h1>
+    <div class="nav">
+
+    <a href="https://www.webacademy.com">Home</a>
+    <a href="https://www.webacademy.com/courses">Lessons</a>
+    <a href="https://www.webacademy.com/contact">Lab</a>
+    <a href="https://www.webacademy.com/about">Notes</a>
+    
+        </div>
+    </div>
+        <h1>Master HTML Step by Step</h1>
+        <p>Learn HTML elements, text formatting, coding standards and character references.</p>
+
+
+
+  </div>
+  <h2>About This Course</h2>
+  <hr>
+  <p>HTML is a markup language used to structure web pages. Learn the differences between elements and use each one correctly.</p>
+  <h2>HTML Lessons</h2>
+    <div class="a2">
+  <div class="a1">
+  <span>01</span>
+  <h3>Coding Standards</h3>
+  </div>
+  <div class="a1">
+  <span>02</span>
+  <h3>Content Categories</h3>
+  </div>
+  <div class="a1">
+  <span>03</span>
+  <h3>Block & Inline</h3>
+  </div>
+  <div class="a1">
+  <span>04</span>
+  <h3>Text Elements</h3>
+  </div>
+  <div class="a1">
+  <span>05</span>
+  <h3>Character References</h3>
+  </div>
+  <div class="a1">
+  <span>06</span>
+  <h3>Hydropower Case</h3>
+  </div>
+    </div>
+  <h2>HTML Code Lab</h2>
+  <div class="a3">
+    <pre>
+&lt;h1&gt;Hello HTML&lt;/h1&gt;
+&lt;p&gt;Welcome Students&lt;/p&gt;
+</pre>
+    
+
+  </div>
+  <small>Press Enter to run the example.</small>
+  <h2>Text Elements Practice</h2>
+  <p>Water formula:H<sub>2</sub>O | Equation:x<sup>2</sup>+y<sup>2</sup></p>
+  <p>Old price:<del>$100</del> New price:$75</p>
+  <p>Review<strong> Character References</strong> today.</p>
+  <h2>Quote & Study Notes</h2>
+  <em>“Practice makes progress.”</em>
+  <p>HTML & CSS —<time datetime="2026-10-28">October 28, 2026</time></p>
+  <div class="a4">
+    <h3>Web Programming Academy &copy; 2026</h3>
+    <a href="https://www.webacademy.com/privacy"><u>University Website</u></a>
+  </div>
+</div>
+</body>
+</html>
